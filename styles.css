@@ -181,6 +181,16 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .hero-section {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .hero-overlay {
+        padding: 1rem;
+    }
+
     .hero-section h2 {
         font-size: 1.8rem;
     }
@@ -194,12 +204,37 @@ body {
         padding: 0.5rem 1rem;
     }
 
+    .trust-logos {
+        flex-direction: column;
+    }
+
+    .trust-logos img {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
     .details-section h2, .additional-info-section h2, .unique-features-section h2, .testimonials-section h2, .purchase-section h2, .faq-section h2 {
         font-size: 1.5rem;
     }
 
-    .trust-logos img {
-        max-width: 100px;
+    .details-section ul li {
+        padding: 0.75rem;
+    }
+
+    .additional-info-section p, .unique-features-section p {
+        font-size: 1rem;
+    }
+
+    .testimonials-section .testimonial {
+        padding: 0.75rem;
+    }
+
+    .purchase-section p {
+        font-size: 1rem;
+    }
+
+    .faq-section .faq {
+        padding: 0.75rem;
     }
 }
 
